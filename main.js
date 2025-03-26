@@ -5,7 +5,7 @@ addEventListener("submit", function(e){
     let numeroB = parseFloat(document.getElementById("numero-b").value);
     
     if(numeroB > numeroA ){
-    alert("o formulario e valido");
+        alert("o formulario e valido");
     } else{
         alert("o fuemulario nao e valido");
     }
